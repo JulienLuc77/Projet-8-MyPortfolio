@@ -1,0 +1,13 @@
+.hello{
+  color: #0097bd;
+  font-size: 20px;
+}
+.button{
+  color: white;
+  border: white 2px solid;
+  display: flex;
+  align-items: center;
+}
+.button:hover{
+  transition: 0.3s;
+}

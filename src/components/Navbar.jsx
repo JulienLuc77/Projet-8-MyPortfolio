@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Logo from '../assets/logo.png'
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaMailBulk, FaMailchimp, FaVoicemail} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import "./Navbar.scss"
@@ -40,11 +40,26 @@ const Navbar = () => {
         </ul>
 
       {/*Réseau Social*/}
-      <div className='flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] f'>
-            <a href="/">
+          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a className='content-social' href="https://www.linkedin.com/in/julien-luc-33915a156/" target='blank'>
               Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a className='content-social' href="https://github.com/JulienLuc77?tab=repositories" target='blank'>
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a className='content-social' href="mailto: julien.luc77@gmail.com">
+              Mail to <FaMailBulk size={30} />
+            </a>
+          </li>
+          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
+            <a className='content-social' href="mailto: julien.luc77@gmail.com">
+              Mon CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
