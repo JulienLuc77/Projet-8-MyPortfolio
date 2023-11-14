@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Logo from '../assets/logo.png'
-import {FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaHome, FaBook, FaDiagnoses, FaProjectDiagram, FaFileContract } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import "./Navbar.scss"
@@ -52,28 +52,33 @@ const Navbar = () => {
       </div>
 
       {/*Menu Mobile*/}
-        <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl'>
+        <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-[#101728] flex flex-col justify-center items-center'}>
+          <li className='py-6 text-4xl flex items-center'>
+            <FaHome className='mr-4' />
             <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-              Accueil
-            </Link>
+             Accueil
+           </Link>
           </li>
-          <li className='py-6 text-4xl'>
+          <li className='py-6 text-4xl flex items-center'>
+            <FaBook className='mr-4' />
             <Link onClick={handleClick} to='about' smooth={true} duration={500}>
               À propos
             </Link>
           </li>
-          <li className='py-6 text-4xl'> 
+          <li className='py-6 text-4xl flex items-center'> 
+            <FaDiagnoses className='mr-4' />
             <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li className='py-6 text-4xl'> 
+          <li className='py-6 text-4xl flex items-center'> 
+            <FaProjectDiagram className='mr-4'/>
             <Link onClick={handleClick} to='work' smooth={true} duration={500}>
               Projets
             </Link>
           </li>
-          <li className='py-6 text-4xl'>
+          <li className='py-6 text-4xl flex items-center'>
+            <FaFileContract className='mr-4'/>
             <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
               Contact
             </Link>
@@ -95,7 +100,7 @@ const Navbar = () => {
           </li>
           <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
             <a className='content-social' href="mailto: julien.luc77@gmail.com">
-              Mail to <HiOutlineMail size={30} />
+              Mon mail <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
