@@ -11,7 +11,7 @@ export const Home = () => {
         <h2 className='text-[#6d6d6d] text-4xl sm:text-5xl font-bold' >Développeur Front-end</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>Je suis un développeur web récemment diplomé. J'ai obtenu une certification en HTML, CSS, JavaScript (React) avec également quelques notions en back-end, et je suis capable de créer des sites web dynamiques, interactifs, et optimisés pour les moteurs de recherche.</p>
         <div>
-           <button className='button group px-6 py-3 my-2 hover:bg-teal-700 hover:border-teal-700'>Voir mes projets 
+           <button className='button group px-6 py-3 my-2 hover:bg-teal-700 hover:border-teal-700 rounded-xl'>Voir mes projets 
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3' />
             </span>

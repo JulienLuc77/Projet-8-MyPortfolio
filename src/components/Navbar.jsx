@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import Logo from '../assets/logo.png'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaMailBulk, FaMailchimp, FaVoicemail} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import "./Navbar.scss"
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -15,15 +16,35 @@ const Navbar = () => {
       </div>
 
       {/*Menu*/}
-      <div className='hidden md:flex'>
-          <ul className='menu'>
-            <li>Accueil</li>
-            <li>À propos</li>
-            <li>Skills</li>
-            <li>Projets</li>
-            <li>Contact</li>
-          </ul>
-      </div>
+      
+        <ul className='hidden md:flex'>
+          <li>
+            <Link to='home' smooth={true} duration={500}>
+              Accueil
+            </Link>
+          </li>
+          <li>
+            <Link to='about' smooth={true} duration={500}>
+              À propos
+            </Link>
+          </li>
+          <li>
+            <Link to='skills' smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to='work' smooth={true} duration={500}>
+              Projets
+            </Link>
+          </li>
+          <li>
+            <Link to='contact' smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+   
 
       {/*Menu*/}
       <div onClick={handleClick} className='md:hidden z-10'>
@@ -32,11 +53,31 @@ const Navbar = () => {
 
       {/*Menu Mobile*/}
         <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl'>Accueil</li>
-          <li className='py-6 text-4xl'>À propos</li>
-          <li className='py-6 text-4xl'>Skills</li>
-          <li className='py-6 text-4xl'>Projet</li>
-          <li className='py-6 text-4xl'>Contact</li>
+          <li className='py-6 text-4xl'>
+            <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+              Accueil
+            </Link>
+          </li>
+          <li className='py-6 text-4xl'>
+            <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+              À propos
+            </Link>
+          </li>
+          <li className='py-6 text-4xl'> 
+            <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li className='py-6 text-4xl'> 
+            <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+              Projets
+            </Link>
+          </li>
+          <li className='py-6 text-4xl'>
+            <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
         </ul>
 
       {/*Réseau Social*/}
@@ -54,7 +95,7 @@ const Navbar = () => {
           </li>
           <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
             <a className='content-social' href="mailto: julien.luc77@gmail.com">
-              Mail to <FaMailBulk size={30} />
+              Mail to <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
