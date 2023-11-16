@@ -52,32 +52,32 @@ const Navbar = () => {
       </div>
 
       {/*Menu Mobile*/}
-        <ul className={!nav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-[#101728] flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl flex items-center'>
+        <ul className={!nav ? 'hidden': 'social-2'}>
+          <li className='mobile-list'>
             <FaHome className='mr-4' />
             <Link onClick={handleClick} to='home' smooth={true} duration={500}>
              Accueil
            </Link>
           </li>
-          <li className='py-6 text-4xl flex items-center'>
+          <li className='mobile-list'>
             <FaBook className='mr-4' />
             <Link onClick={handleClick} to='about' smooth={true} duration={500}>
               À propos
             </Link>
           </li>
-          <li className='py-6 text-4xl flex items-center'> 
+          <li className='mobile-list'> 
             <FaDiagnoses className='mr-4' />
             <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li className='py-6 text-4xl flex items-center'> 
+          <li className='mobile-list'> 
             <FaProjectDiagram className='mr-4'/>
             <Link onClick={handleClick} to='work' smooth={true} duration={500}>
               Projets
             </Link>
           </li>
-          <li className='py-6 text-4xl flex items-center'>
+          <li className='mobile-list'>
             <FaFileContract className='mr-4'/>
             <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
               Contact
@@ -88,23 +88,23 @@ const Navbar = () => {
       {/*Réseau Social*/}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
+          <li className='social'>
             <a className='content-social' href="https://www.linkedin.com/in/julien-luc-33915a156/" target='blank'>
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
+          <li className='social'>
             <a className='content-social' href="https://github.com/JulienLuc77?tab=repositories" target='blank'>
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
+          <li className='social'>
             <a className='content-social' href="mailto: julien.luc77@gmail.com">
               Mon mail <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='social ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='content-social' href="mailto: julien.luc77@gmail.com">
+          <li className='social'>
+            <a className='content-social' href="/assets/CV_JULIEN_LUC.pdf" download="CV_JULIEN_LUC.pdf">
               Mon CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>
