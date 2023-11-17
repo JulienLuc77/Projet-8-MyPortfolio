@@ -2,6 +2,7 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import "./Home.scss"
 import { Link } from 'react-scroll'
+import photoProfil from "../assets/canvas-min.png"
 
 export const Home = () => {
   return (
@@ -20,6 +21,7 @@ export const Home = () => {
               </span>
             </button>
           </Link>
+          <img className='photo' src={photoProfil} alt="Photo de profil de Julien" />
         </div>
       </div>
     </div>

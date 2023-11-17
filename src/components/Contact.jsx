@@ -9,7 +9,7 @@ const Contact = () => {
       <p className='p1'>Contact</p>
       <p className='p2'>Vous pouvez soumettre le formulaire ou me contacter directement par mail en cliquant sur l'enveloppe à gauche de l'écran</p>
     </div>
-    <input className='custom-box-style' type="text" placeholder='Name' name='name'/>
+    <input className='custom-box-style' type="text" placeholder='Nom' name='name'/>
     <input className='box-style' type="email" placeholder='Email' name='email'/>
     <textarea className='textarea' name="message" placeholder='Message' rows="10"></textarea>
     <button className='custom-button'>Travaillons ensemble !</button>

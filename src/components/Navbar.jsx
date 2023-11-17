@@ -104,7 +104,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='social'>
-            <a className='content-social' href="/assets/CV_JULIEN_LUC.pdf" download="CV_JULIEN_LUC.pdf">
+            <a className='content-social' href="" download="CV_JULIEN_LUC.pdf">
               Mon CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>
