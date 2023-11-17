@@ -5,6 +5,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import "./Navbar.scss"
 import {Link} from 'react-scroll'
+import CV from "../assets/CV_JULIEN_LUC.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -83,6 +84,30 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+            <div className='bar'></div>
+          {/* Réseaux sociaux en bas de la page */}
+          <div className='mobile-footer'>
+            <li className='mobile-list-social'>
+              <a className='content-social-2' href="https://www.linkedin.com/in/julien-luc-33915a156/" target='_blank'>
+                <FaLinkedin size={40} />
+              </a>
+            </li>
+            <li className='mobile-list-social'>
+              <a className='content-social-2' href="https://github.com/JulienLuc77?tab=repositories" target='_blank'>
+                <FaGithub size={40} />
+              </a>
+            </li>
+            <li className='mobile-list-social'>
+              <a className='content-social-2' href="mailto: julien.luc77@gmail.com">
+                <HiOutlineMail size={40} />
+              </a>
+            </li>
+            <li className='mobile-list-social'>
+              <a className='content-social-2' href={CV} target='_blank' rel="noopener noreferrer" download>
+                <BsFillPersonLinesFill size={40} />
+              </a>
+            </li>
+          </div>
         </ul>
 
       {/*Réseau Social*/}
@@ -104,7 +129,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='social'>
-            <a className='content-social' href="" download="CV_JULIEN_LUC.pdf">
+            <a className='content-social' href={CV} target='_blank' rel="noopener noreferrer" download>
               Mon CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>

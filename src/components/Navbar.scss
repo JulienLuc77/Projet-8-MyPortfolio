@@ -20,11 +20,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: -100px; 
+  margin-left: -100px;
   transition: margin-left 0.3s;
+  &:hover {
+    margin-left: -10px;
+  }
+  @media screen and (max-width: 1220px) {
+    margin-left: -100px;
+    &:hover {
+      margin-left: -100px;
+    }
+  }
 }
-.social:hover {
-  margin-left: -10px; 
+.mobile-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  position: fixed;
+  bottom: 35px;
+}
+.bar{
+  width: 100%;
+  border-bottom: 2px solid #34F4F8; 
+  margin-bottom: 10px;
+  position: fixed;
+  bottom: 100px;
+  left: 0;
+  cursor: none;
 }
 .content-social{
   display: flex;

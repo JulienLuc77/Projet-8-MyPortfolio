@@ -66,29 +66,22 @@
 }
 .photo{
   position: absolute;
-  right: 6vh;
-  top: 30vh;
+  right: 10vh;
+  top: 25vh;
   width: 300px;
   border-radius: 150px;
   box-shadow: 5px 5px 5px 5px rgba(23, 209, 255, 0.8);
   @media screen and (max-width: 1200px) {
     width: 200px;
-    top: 40vh;
-    right: 5vh;
+    top: 25vh;
+    right: 10vh;
   }
   @media screen and (max-width: 970px) {
     width: 200px;
-    top: 15vh;
-    right: 15vh;
+    top: 25vh;
+    right: 10vh;
   }
-  @media screen and (max-width: 670px) {
-    width: 150px;
-    top: 15vh;
-    right: 5vh;
-  }
-  @media screen and (max-width: 440px) {
-    width: 100px;
-    top: 15vh;
-    right: 4vh;
+  @media screen and (max-width: 770px) {
+    display: none;
   }
 }

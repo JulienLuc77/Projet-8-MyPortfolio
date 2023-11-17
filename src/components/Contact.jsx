@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Contact.scss"
+import CopyToClipboard from 'react-copy-to-clipboard'
 
 const Contact = () => {
   return (
@@ -7,7 +8,10 @@ const Contact = () => {
   <form method='POST' action="https://getform.io/f/fdd1d8a0-cc91-43d4-b63e-fbe654082128" className='container-form'>
     <div className='p-container'>
       <p className='p1'>Contact</p>
-      <p className='p2'>Vous pouvez soumettre le formulaire ou me contacter directement par mail en cliquant sur l'enveloppe à gauche de l'écran</p>
+      <p className='p2'> Vous pouvez soumettre le formulaire ou cliquer afin de copier mon adresse mail{' '}
+            <CopyToClipboard text="julien.luc77@gmail.com">
+              <span className='mail' onClick={() => {alert('Adresse mail copiée !');}}>ICI</span>
+            </CopyToClipboard></p>
     </div>
     <input className='custom-box-style' type="text" placeholder='Nom' name='name'/>
     <input className='box-style' type="email" placeholder='Email' name='email'/>
