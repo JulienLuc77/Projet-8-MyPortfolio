@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://julienluc77.github.io/Projet-8-Portfolio-Final/",
+  "homepage": "https://julienluc77.github.io/Projet-8-Portfolio-Final",
   "dependencies": {
     "-": "^0.0.1",
     "@react-pdf/renderer": "^3.1.14",
