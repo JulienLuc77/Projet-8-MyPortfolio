@@ -21,7 +21,7 @@ export const Home = () => {
               </span>
             </button>
           </Link>
-          <img className='photo' src={photoProfil} alt="Photo de profil de Julien" />
+          <img className='photo' src={photoProfil} alt="Cliché de Julien" />
         </div>
       </div>
     </div>

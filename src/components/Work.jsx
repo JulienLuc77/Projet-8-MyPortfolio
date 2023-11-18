@@ -20,7 +20,7 @@ const Work = () => {
                 Copie de la plateforme vu dans la série Black Mirror
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://julienluc77.github.io/Streamberry/" target='_blank'>
+                <a href="https://julienluc77.github.io/Streamberry/" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Streamberry</button>
                 </a>
               </div>
@@ -32,7 +32,7 @@ const Work = () => {
                 Création d'un portfolio fictif de Jena pâtissière expérimentée avec Locomotiv JS
               </span>
               <div className='pt-9 text-center'>
-                <a href="https://julienluc77.github.io/Jena-Pastry/" target='_blank'>
+                <a href="https://julienluc77.github.io/Jena-Pastry/" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Jena Pastry</button>
                 </a>
               </div>
@@ -44,7 +44,7 @@ const Work = () => {
                 Création d'un site de location immobilière avec REACT
               </span>
               <div className='pt-9 text-center'>
-                <a href="" target='_blank'>
+                <a href="https://julienluc77.github.io/Projet-2-Booki/" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Kasa</button>
                 </a>
               </div>
@@ -56,7 +56,7 @@ const Work = () => {
                 Création d'un site d'hébergements et d'activités en HTML/CSS
               </span>
               <div className='pt-9 text-center'>
-                <a href="https://julienluc77.github.io/Projet-2-Booki/" target='_blank'>
+                <a href="https://julienluc77.github.io/Projet-2-Booki/" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Booki</button>
                 </a>
               </div>
@@ -68,7 +68,7 @@ const Work = () => {
                 Optimisation d'un site d'une photographe professionnelle
               </span>
               <div className='pt-9 text-center'>
-                <a href="https://julienluc77.github.io/Projet-5-Nina-Photographe/" target='_blank'>
+                <a href="https://julienluc77.github.io/Projet-5-Nina-Photographe/" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Nina Carducci</button>
                 </a>
               </div>

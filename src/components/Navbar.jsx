@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='content px-4'>
       <div>
-        <img className='logo' src={Logo} alt="Image du logo" />
+        <img className='logo' src={Logo} alt="Julien Luc en typographie colorée" />
       </div>
 
       {/*Menu*/}
@@ -88,12 +88,12 @@ const Navbar = () => {
           {/* Réseaux sociaux en bas de la page */}
           <div className='mobile-footer'>
             <li className='mobile-list-social'>
-              <a className='content-social-2' href="https://www.linkedin.com/in/julien-luc-33915a156/" target='_blank'>
+              <a className='content-social-2' href="https://www.linkedin.com/in/julien-luc-33915a156/" target='_blank' rel="noreferrer">
                 <FaLinkedin size={40} />
               </a>
             </li>
             <li className='mobile-list-social'>
-              <a className='content-social-2' href="https://github.com/JulienLuc77?tab=repositories" target='_blank'>
+              <a className='content-social-2' href="https://github.com/JulienLuc77?tab=repositories" target='_blank' rel="noreferrer">
                 <FaGithub size={40} />
               </a>
             </li>
@@ -114,12 +114,12 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='social'>
-            <a className='content-social' href="https://www.linkedin.com/in/julien-luc-33915a156/" target='blank'>
+            <a className='content-social' href="https://www.linkedin.com/in/julien-luc-33915a156/" target='blank' rel="noreferrer">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='social'>
-            <a className='content-social' href="https://github.com/JulienLuc77?tab=repositories" target='blank'>
+            <a className='content-social' href="https://github.com/JulienLuc77?tab=repositories" target='blank' rel="noreferrer">
               Github <FaGithub size={30} />
             </a>
           </li>
