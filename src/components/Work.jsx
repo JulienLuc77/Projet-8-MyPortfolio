@@ -44,7 +44,7 @@ const Work = () => {
                 Création d'un site de location immobilière avec REACT
               </span>
               <div className='pt-9 text-center'>
-                <a href="https://julienluc77.github.io/Projet-2-Booki/" target='_blank' rel="noreferrer">
+                <a href="https://projet-6-kasa-is7cy0tow-juliens-projects-7be01281.vercel.app" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Kasa</button>
                 </a>
               </div>
