@@ -4,6 +4,7 @@ import Jenaimg from '../assets/pâtisserie.webp'
 import Kasaimg from '../assets/kasa.png'
 import Bookimg from '../assets/booki.png'
 import Ninaimg from '../assets/nina-carducci.png'
+import Grimoireimg from '../assets/grimoire.png'
 
 const Work = () => {
   return (
@@ -70,6 +71,18 @@ const Work = () => {
               <div className='pt-9 text-center'>
                 <a href="https://julienluc77.github.io/Projet-5-Nina-Photographe/" target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Nina Carducci</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div style={{backgroundImage: `url(${Grimoireimg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div className='opacity-0 group-hover:opacity-100 text-center content-div'>
+              <span className='text-1xl text-gray-50 tracking-wider'>
+                Création du Back-end pour ce site de notation de livres
+              </span>
+              <div className='pt-9 text-center'>
+                <a href="https://projet-7-mon-grimoire.vercel.app/" target='_blank' rel="noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>Mon Vieux Grimoire</button>
                 </a>
               </div>
             </div>
