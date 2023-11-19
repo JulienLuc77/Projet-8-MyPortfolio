@@ -1,6 +1,6 @@
 import React from 'react'
 import Streamimg from '../assets/streamberry.webp'
-import Jenaimg from '../assets/pâtisserie.webp'
+import Jenaimg from '../assets/pâtisserie.png'
 import Kasaimg from '../assets/kasa.png'
 import Bookimg from '../assets/booki.png'
 import Ninaimg from '../assets/nina-carducci.png'
