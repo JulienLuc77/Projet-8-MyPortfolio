@@ -5,7 +5,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import "./Navbar.scss"
 import {Link} from 'react-scroll'
-import CV from "../assets/CV_Julien_Luc.pdf"
+import CV from "../assets/CV_JULIEN_LUC.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
