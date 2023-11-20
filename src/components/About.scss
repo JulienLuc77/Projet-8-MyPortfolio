@@ -54,5 +54,13 @@
   }
   .text{
     color: #9CA3AF;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 50px;
+    }
+  }
+  .text-presentation {
+    @media screen and (max-width: 768px) {
+      font-size: 30px;
+    }
   }
 }

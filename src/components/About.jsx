@@ -13,7 +13,7 @@ function About() {
       </div>
       <div className='presentation'>
         <div className='presentation2'>
-          <p>"De nature créative, je partage avec fierté un parcours riche en réussites et en apprentissages."</p>
+          <p className='text-presentation'>"De nature créative, je partage avec fierté un parcours riche en réussites et en apprentissages."</p>
         </div>
         <div className='text'>
           <p>J'ai parcouru un chemin professionnel me menant à l'acquisition et au développement d'importantes compétences comme, une pleine implication, un apprentissage autodidacte, la curiosité, le travail en équipe et l'investissement professionnel nécessaire pour accomplir parfaitement les missions qui me sont confiées.</p>
